@@ -1,0 +1,68 @@
+package javaApplication30;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ *
+package javaapplication30
+
+/**
+ *
+ * @author HL17
+ */
+import java.util.Scanner;
+public class JavaApplication30 {
+
+    
+public static void main (String[] args) 
+{
+        
+        int a,b,c,d,y,z;
+        char x;
+        
+        Scanner galo=new Scanner(System.in);
+        System.out.print("Enter rows:");
+        a=galo.nextInt();
+        System.out.print("Enter cols:");
+        b=galo.nextInt();
+        System.out.print("Result: \n");
+        
+        for(c=1;c<=a;c++)
+        {
+            for(d=1;d<=c;d++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        Scanner gals=new Scanner(System.in);
+        System.out.print("Enter characters:");
+        x=gals.next().charAt(0);
+        System.out.print("Enter # of loops:");
+        z=gals.nextInt();
+        System.out.print("Result: \n");
+        
+        for(y=0;y<=z;y++)
+    {
+        {
+            System.out.print(x);
+        }
+        System.out.println();
+        // TODO code application logic here
+    }
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
